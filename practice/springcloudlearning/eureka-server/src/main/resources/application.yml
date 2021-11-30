@@ -1,0 +1,18 @@
+# 运行端口
+server:
+  port: 8001
+
+#服务器名称
+spring:
+  application:
+    name: eureka-server
+
+#主机地址
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    #关闭从注册中心注册服务
+    fetch-registry: false
+    #指定是否将服务注册到注册中心
+    register-with-eureka: false

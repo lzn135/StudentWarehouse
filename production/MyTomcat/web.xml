@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>servlet_1</servlet-name>
+        <servlet-class>org.lanqiao.test.Servlet_1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlet_1</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+
+    </servlet>
+    <servlet-mapping>
+
+    </servlet-mapping>
+</web-app>
