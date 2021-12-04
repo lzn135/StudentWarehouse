@@ -4,6 +4,7 @@ import com.fish.blog.service.TagService;
 import com.fish.blog.util.PageQueryUtil;
 import com.fish.blog.util.Result;
 import com.fish.blog.util.ResultGenerator;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
@@ -61,6 +62,4 @@ public class TagController {
             return ResultGenerator.genFailResult("有关联数据请勿强行删除");
         }
     }
-
-
 }

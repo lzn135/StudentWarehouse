@@ -14,7 +14,7 @@ public class FileUploadController{
 	@RequestMapping("/uploadImg")
 	@ResponseBody
 	public CommonResult upload(@RequestParam("file") MultipartFile multipartFile, HttpSession session){
-		if (!StringUtils.isEmpty(String.valueOf(multipartFile)) && multipartFile.getSize()>0){
+		if (!StringUtils.isEmpty(String.valueOf(multipartFile)) && multipartFile.getSize()>0) {
 			//获取原始文件名
 			String filename = multipartFile.getOriginalFilename();
 			//获取文件拓展名

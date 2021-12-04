@@ -269,7 +269,6 @@ public class BlogServiceImpl implements BlogService {
         }
         return null;
     }
-
     @Override
     public PageResult getBlogsPageBySearch(String keyword, int page) {
         if (page > 0 && PatternUtil.validKeyword(keyword)) {
@@ -282,6 +281,7 @@ public class BlogServiceImpl implements BlogService {
             List<Blog> blogList = blogMapper.findBlogList(pageUtil);
             List<BlogListVO> blogListVOS = getBlogListVOsByBlogs(blogList);
             int total = blogMapper.getTotalBlogs(pageUtil);
+
             PageResult pageResult = new PageResult(blogListVOS, total, pageUtil.getLimit(), pageUtil.getPage());
             return pageResult;
         }

@@ -35,6 +35,7 @@ public class LinkServiceImpl implements LinkService {
     @Override
     public Boolean saveLink(BlogLink link) {
         return blogLinkMapper.insertSelective(link) > 0;
+
     }
 
     @Override
