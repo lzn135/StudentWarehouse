@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaSourceCodeLearning.git.iml" filepath="$PROJECT_DIR$/.idea/JavaSourceCodeLearning.git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trunk/Spring-AOP/learnaop.iml" filepath="$PROJECT_DIR$/trunk/Spring-AOP/learnaop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trunk/JdkLearn/learnjava.iml" filepath="$PROJECT_DIR$/trunk/JdkLearn/learnjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trunk/Spring-Netty/learnnetty.iml" filepath="$PROJECT_DIR$/trunk/Spring-Netty/learnnetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trunk/Spring-Boot/learnsb.iml" filepath="$PROJECT_DIR$/trunk/Spring-Boot/learnsb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trunk/Spring/learnspring.iml" filepath="$PROJECT_DIR$/trunk/Spring/learnspring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trunk/rocketmqdemo/rocketmqdemo.iml" filepath="$PROJECT_DIR$/trunk/rocketmqdemo/rocketmqdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trunk/Spring-Security/springsecurity.iml" filepath="$PROJECT_DIR$/trunk/Spring-Security/springsecurity.iml" />
+    </modules>
+  </component>
+</project>
