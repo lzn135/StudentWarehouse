@@ -109,5 +109,4 @@ public class LinkController {
             return ResultGenerator.genFailResult("删除失败");
         }
     }
-
 }
