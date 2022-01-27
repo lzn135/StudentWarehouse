@@ -13,6 +13,7 @@ import com.example.shiro.AccountProfile;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
 import org.springframework.stereotype.Service;
+import sun.util.resources.cldr.twq.CalendarData_twq_NE;
 
 import java.util.Date;
 
@@ -41,7 +42,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         temp.setPassword(SecureUtil.md5(user.getPassword()));
         temp.setEmail(user.getEmail());
         temp.setAvatar("/res/images/avatar/default.png");
-
         temp.setCreated(new Date());
         temp.setPoint(0);
         temp.setVipLevel(0);
@@ -49,7 +49,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         temp.setPostCount(0);
         temp.setGender("0");
         this.save(temp);
-
         return Result.success();
     }
 
@@ -63,7 +62,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         if(!user.getPassword().equals(password)){
             throw new IncorrectCredentialsException();
         }
-
         user.setLasted(new Date());
         this.updateById(user);
 

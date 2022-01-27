@@ -17,6 +17,7 @@ public class ConfigurationController {
     @Resource
     private ConfigService configService;
 
+
     @GetMapping("/configurations")
     public String list(HttpServletRequest request) {
         request.setAttribute("path", "configurations");
@@ -89,6 +90,5 @@ public class ConfigurationController {
         }
         return ResultGenerator.genSuccessResult(updateResult > 0);
     }
-
 
 }

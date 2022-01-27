@@ -22,7 +22,6 @@ public class KaptchaConfig {
         properties.put("kaptcha.textproducer.char.space", "5");
         Config config = new Config(properties);
         defaultKaptcha.setConfig(config);
-
         return defaultKaptcha;
     }
 }

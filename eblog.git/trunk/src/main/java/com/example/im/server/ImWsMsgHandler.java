@@ -50,7 +50,6 @@ public class ImWsMsgHandler implements IWsMsgHandler {
         // 绑定群聊通道，群名称叫做：e-group-study
         Tio.bindGroup(channelContext, Consts.IM_GROUP_NAME);
         log.info("{} --------------> 已绑定群！", channelContext.getId());
-
     }
 
     /**

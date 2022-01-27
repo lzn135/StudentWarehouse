@@ -1,6 +1,7 @@
 package com.fish.blog.util;
 
 import org.springframework.util.StringUtils;
+import sun.plugin2.message.Message;
 
 public class ResultGenerator {
     private static final String DEFAULT_SUCCESS_MESSAGE = "SUCCESS";

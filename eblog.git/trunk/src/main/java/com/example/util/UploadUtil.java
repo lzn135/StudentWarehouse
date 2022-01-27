@@ -59,7 +59,6 @@ public class UploadUtil {
 
             String path = filePath + fileName;
             String url = "/upload" + fileName;
-
             log.info("url ---> {}", url);
 
             return Result.success(url);

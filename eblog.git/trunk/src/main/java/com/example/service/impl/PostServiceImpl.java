@@ -118,7 +118,6 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
         String key = "rank:post:" + post.getId();
         boolean hasKey = redisUtil.hasKey(key);
         if(!hasKey) {
-
             redisUtil.hset(key, "post:id", post.getId(), expireTime);
             redisUtil.hset(key, "post:title", post.getTitle(), expireTime);
             redisUtil.hset(key, "post:commentCount", post.getCommentCount(), expireTime);

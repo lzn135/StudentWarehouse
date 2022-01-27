@@ -19,7 +19,6 @@ public class ApiResultHandler {
     public static <T> ApiResult buildApiResult(Integer code, String message, T data) {
         ApiResult apiResult = new ApiResult();
 
-
         apiResult.setCode(code);
         apiResult.setMessage(message);
         apiResult.setData(data);

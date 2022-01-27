@@ -57,6 +57,7 @@ public enum ServiceResultEnum {
 
     private String result;
 
+
     ServiceResultEnum(String result) {
         this.result = result;
     }

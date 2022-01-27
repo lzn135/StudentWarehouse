@@ -60,10 +60,10 @@ public class SearchServiceImpl implements SearchService {
         if(records == null || records.isEmpty()) {
             return 0;
         }
-
         List<PostDocment> documents = new ArrayList<>();
         for(PostVo vo : records) {
             // 映射转换
+            //通化市此事的结案支持
             PostDocment postDocment = modelMapper.map(vo, PostDocment.class);
             documents.add(postDocment);
         }

@@ -58,6 +58,8 @@ public class BlogServiceImpl implements BlogService {
         }
         //保存文章
         if (blogMapper.insertSelective(blog) > 0) {
+            Vector vector = new Vector();
+
             //新增的tag对象
             List<BlogTag> tagListForInsert = new ArrayList<>();
             //所有的tag对象，用于建立关系数据

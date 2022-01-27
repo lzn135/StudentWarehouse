@@ -16,6 +16,7 @@ public class FillQuestionServiceImpl implements FillQuestionService {
     @Autowired
     private FillQuestionMapper fillQuestionMapper;
 
+
     @Override
     public List<FillQuestion> findByIdAndType(Integer paperId) {
         return fillQuestionMapper.findByIdAndType(paperId);

@@ -18,9 +18,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Map;
 import java.util.Random;
-import java.util.UUID;
 
 @Controller
 @RequestMapping("/admin")

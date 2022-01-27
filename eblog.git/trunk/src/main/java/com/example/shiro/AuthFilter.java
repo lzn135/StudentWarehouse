@@ -2,6 +2,7 @@ package com.example.shiro;
 
 import cn.hutool.json.JSONUtil;
 import com.example.common.lang.Result;
+import com.example.entity.Post;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.web.filter.authc.UserFilter;
 

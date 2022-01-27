@@ -7,8 +7,10 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+
 @Configuration
 public class BlogWebMvcConfigurer implements WebMvcConfigurer {
+
 
     @Autowired
     private AdminLoginInterceptor adminLoginInterceptor;
@@ -22,7 +24,6 @@ public class BlogWebMvcConfigurer implements WebMvcConfigurer {
         	.excludePathPatterns("/admin/dist/**")
         	.excludePathPatterns("/admin/plugins/**");
     }
-
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/upload/**").addResourceLocations("file:" + Constants.FILE_UPLOAD_DIC);
     }

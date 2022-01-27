@@ -65,9 +65,8 @@ public class AdminController {
         String kaptchaCode = session.getAttribute("verifyCode") + "";
         if (!verifyCode.equals(kaptchaCode)) {
             session.setAttribute("errorMsg", "验证码错误");
-            return "admin/logins";
+            return "admin/login";
 		}
-
         AdminUser adminUser = adminUserService.login(userName, password);
         if (adminUser != null) {
             session.setAttribute("loginUser", adminUser.getNickName());

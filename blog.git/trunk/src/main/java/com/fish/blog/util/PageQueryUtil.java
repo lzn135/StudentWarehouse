@@ -41,7 +41,7 @@ public class PageQueryUtil extends LinkedHashMap<String, Object> {
     public String toString() {
         return "PageUtil{" +
                 "page=" + page +
-                ", limit=" + limit +
+                ",limit=" + limit +
                 '}';
     }
 }

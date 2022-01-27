@@ -22,10 +22,10 @@
                     <th:block th:if="${null != categories}">
                         <th:block th:each="category : ${categories}">
                             <div class="col-md-6 card text-center">
-                                <div class="thumbnail">
+                                <div class="thumbnail" >
                                     <div class="card-image"
                                          th:style="'background:url(' + @{(${category.categoryIcon})} + ');background-repeat:no-repeat;'">
-                                        <div class="card-image-cell">
+                                        <div class="card-image-cell"><a th:href="@{'/category/' + ${category.categoryName}}">
                                         </div>
                                     </div>
                                     <div class="caption">

@@ -37,7 +37,6 @@ public class CategoryController {
         PageQueryUtil pageUtil = new PageQueryUtil(params);
         return ResultGenerator.genSuccessResult(categoryService.getBlogCategoryPage(pageUtil));
     }
-
     /**
      * 分类添加
      */
