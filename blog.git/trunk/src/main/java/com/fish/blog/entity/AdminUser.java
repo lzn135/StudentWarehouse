@@ -1,8 +1,20 @@
 package com.fish.blog.entity;
 
-public class AdminUser {
-    private Integer adminUserId;
 
+import javax.validation.constraints.NotNull;
+import lombok.Data;
+
+import javax.validation.constraints.Size;
+
+
+@Data
+
+public class AdminUser {
+
+	@NotNull(message = "用户ID不能为空")
+    private Integer adminUserId;
+    @NotNull(message = "管理员账户不能为空")
+	@Size(min =6,max = 11,message = "账号长度必须是6-11个字符")
     private String loginUserName;
 
     private String loginPassword;
@@ -11,58 +23,4 @@ public class AdminUser {
 
     private Byte locked;
 
-    public Integer getAdminUserId() {
-        return adminUserId;
-    }
-
-    public void setAdminUserId(Integer adminUserId) {
-        this.adminUserId = adminUserId;
-    }
-
-    public String getLoginUserName() {
-        return loginUserName;
-    }
-
-    public void setLoginUserName(String loginUserName) {
-        this.loginUserName = loginUserName == null ? null : loginUserName.trim();
-    }
-
-    public String getLoginPassword() {
-        return loginPassword;
-    }
-
-    public void setLoginPassword(String loginPassword) {
-        this.loginPassword = loginPassword == null ? null : loginPassword.trim();
-    }
-
-    public String getNickName() {
-        return nickName;
-    }
-
-    public void setNickName(String nickName) {
-        this.nickName = nickName == null ? null : nickName.trim();
-    }
-
-    public Byte getLocked() {
-        return locked;
-    }
-
-    public void setLocked(Byte locked) {
-        this.locked = locked;
-    }
-
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", adminUserId=").append(adminUserId);
-        sb.append(", loginUserName=").append(loginUserName);
-        sb.append(", loginPassword=").append(loginPassword);
-        sb.append(", nickName=").append(nickName);
-        sb.append(", locked=").append(locked);
-        sb.append("]");
-        return sb.toString();
-    }
 }

@@ -1,7 +1,9 @@
 package com.fish.blog.controller.admin;
 
+import com.fish.blog.dao.AdminUserMapper;
 import com.fish.blog.entity.AdminUser;
 import com.fish.blog.service.*;
+import com.fish.blog.util.MD5Util;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
@@ -54,30 +56,36 @@ public class AdminController {
                         @RequestParam("password") String password,
                         @RequestParam("verifyCode") String verifyCode,
                         HttpSession session) {
-        if (StringUtils.isEmpty(verifyCode)) {
-            session.setAttribute("errorMsg", "验证码不能为空");
-            return "admin/login";
-        }
-        if (StringUtils.isEmpty(userName) || StringUtils.isEmpty(password)) {
-            session.setAttribute("errorMsg", "用户名或密码不能为空");
-            return "admin/login";
-        }
-        String kaptchaCode = session.getAttribute("verifyCode") + "";
-        if (!verifyCode.equals(kaptchaCode)) {
-            session.setAttribute("errorMsg", "验证码错误");
-            return "admin/login";
-		}
         AdminUser adminUser = adminUserService.login(userName, password);
-        if (adminUser != null) {
-            session.setAttribute("loginUser", adminUser.getNickName());
-            session.setAttribute("loginUserId", adminUser.getAdminUserId());
-            //session过期时间设置为7200秒 即两小时
-            //session.setMaxInactiveInterval(60 * 60 * 2);
-            return "redirect:/admin/index";
-        } else {
-            session.setAttribute("errorMsg", "登陆失败");
-            return "admin/login";
-        }
+            if (adminUser != null) {
+                String password1 =  MD5Util.MD5Encode(password);
+                String passWord = adminUser.getLoginPassword();
+                if (!password1.equals(passWord)) {
+                    session.setAttribute("errorMsg", "密码错误");
+                    return "admin/login";
+                }
+                if (StringUtils.isEmpty(userName) || StringUtils.isEmpty(password)) {
+                    session.setAttribute("errorMsg", "用户名或密码不能为空");
+                    return "admin/login";
+                }
+                if (StringUtils.isEmpty(verifyCode)) {
+                    session.setAttribute("errorMsg", "验证码不能为空");
+                    return "admin/login";
+                }
+                String kaptchaCode = session.getAttribute("verifyCode") + "";
+                if (!verifyCode.equals(kaptchaCode)) {
+                    session.setAttribute("errorMsg", "验证码错误");
+                    return "admin/login";
+                }
+                session.setAttribute("loginUser", adminUser.getNickName());
+                session.setAttribute("loginUserId", adminUser.getAdminUserId());
+                //session过期时间设置为7200秒 即两小时
+                //session.setMaxInactiveInterval(60 * 60 * 2);
+                return "redirect:/admin/index";
+            } else {
+                session.setAttribute("errorMsg", "登陆失败");
+                return "admin/login";
+            }
     }
 
     @GetMapping("/profile")

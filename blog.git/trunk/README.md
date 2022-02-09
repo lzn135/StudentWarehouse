@@ -1,6 +1,4 @@
-# Java程序鱼博客
 
-![Java程序鱼博客首页](static-files/home.png)
 
 ![管理后台首页](static-files/index.png)
 

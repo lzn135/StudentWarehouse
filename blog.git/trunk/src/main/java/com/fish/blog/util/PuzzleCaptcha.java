@@ -16,6 +16,7 @@ import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.InputStream;
+import java.util.Map;
 import java.util.Random;
 
 
@@ -189,7 +190,6 @@ public class PuzzleCaptcha {
 			wScale = NumberUtil.div(w, width);
 			path = paintBrick(wScale, hScale);
 		}
-
 		// 创建阴影过滤器
 		float radius = 5 * ((float) w / DEFAULT_WIDTH) * (float) wScale;
 		int left = 1;
