@@ -1,6 +1,0 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://xx:8686/eureka/
-  instance:
-    prefer-ip-address: true

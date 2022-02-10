@@ -1,3 +1,0 @@
-ai:
-  pythonPath: python #python路径
-  pyPath: /root/.jupyter/poem/eval.py  #脚本路径
