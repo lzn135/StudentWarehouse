@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1107559a-599b-46e1-a5a3-faf3c621d6bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lmall/common/ServiceResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Lmall/common/ServiceResultEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lmall/controller/common/KaptchaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Lmall/controller/common/KaptchaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lmall/service/impl/MallCarouselServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Lmall/service/impl/MallCarouselServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-Vue-OnlineExam.git/trunk/springboot/src/main/java/com/exam/serviceimpl/FillQuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-Vue-OnlineExam.git/trunk/springboot/src/main/java/com/exam/serviceimpl/FillQuestionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-Vue-OnlineExam.git/trunk/springboot/src/main/java/com/exam/serviceimpl/MultiQuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-Vue-OnlineExam.git/trunk/springboot/src/main/java/com/exam/serviceimpl/MultiQuestionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-Vue-OnlineExam.git/trunk/springboot/src/main/java/com/exam/util/ApiResultHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-Vue-OnlineExam.git/trunk/springboot/src/main/java/com/exam/util/ApiResultHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-Vue-OnlineExam.git/trunk/springboot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-Vue-OnlineExam.git/trunk/springboot/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog.git/trunk/src/main/java/com/fish/blog/MyBlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog.git/trunk/src/main/java/com/fish/blog/MyBlogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog.git/trunk/src/main/java/com/fish/blog/controller/admin/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog.git/trunk/src/main/java/com/fish/blog/controller/admin/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog.git/trunk/src/main/java/com/fish/blog/controller/admin/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog.git/trunk/src/main/java/com/fish/blog/controller/admin/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog.git/trunk/src/main/java/com/fish/blog/service/impl/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog.git/trunk/src/main/java/com/fish/blog/service/impl/TagServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog.git/trunk/src/main/java/com/fish/blog/util/ResultGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog.git/trunk/src/main/java/com/fish/blog/util/ResultGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog.git/trunk/src/main/resources/templates/admin/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blog.git/trunk/src/main/resources/templates/admin/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog.git/trunk/src/main/resources/templates/admin/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blog.git/trunk/src/main/resources/templates/admin/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/im/server/ImWsMsgHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/im/server/ImWsMsgHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/search/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/search/repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/service/impl/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/service/impl/PostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/service/impl/SearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/service/impl/SearchServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/shiro/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/shiro/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/util/UploadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eblog.git/trunk/src/main/java/com/example/util/UploadUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eblog.git/trunk/src/main/resources/application-vm.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eblog.git/trunk/src/main/resources/application-vm.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eblog.git/trunk/src/main/resources/mapper/PostMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eblog.git/trunk/src/main/resources/mapper/PostMapper.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/common/ServiceResultEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/dao/CarouselMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/entity/MallShoppingCartItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/service/impl/MallCarouselServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/service/impl/MallGoodsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1342">
+              <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/entity/Carousel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/JAVA/src.zip!/java/util/Calendar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6072">
+              <caret line="332" selection-start-line="332" selection-end-line="332" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>session</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/common/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/util/PageResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/util/PageQueryUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/util/NumberUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/LMallApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/common/MallCategoryLevelEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/config/MallWebMvcConfigurer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/controller/admin/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/MallShoppingCartItemMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/dao/IndexConfigMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/controller/common/CommonController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/controller/admin/MallGoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/controller/vo/MallShoppingCartItemVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/util/ResultGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/controller/Lmall/LmallIndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/admin/plugins/kindeditor-4.1.10/kindeditor-all.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/GoodsCategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/controller/Lmall/LmallShoppingCartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/controller/admin/MallGoodsIndexConfigController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/sidebar.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/controller/admin/MallCarouselController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/controller/common/KaptchaConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/controller/Lmall/LmallGoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/controller/admin/MallGoodsCategoryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/dao/AdminUserMapper.java" />
+        <option value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[620]有趣的电影.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/common/ServiceResultEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/service/impl/MallCarouselServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lmall/entity/Carousel.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\apache-maven-3.6.0-bin\Repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="E:\develop\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Lmall" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Lmall" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="240" />
+    <option name="y" value="127" />
+    <option name="width" value="1440" />
+    <option name="height" value="774" />
+  </component>
+  <component name="ProjectId" id="1temNfRH54XDgAhEZCPgNBSmWia" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lmall9.0" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Lmall" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Lmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Lmall" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Lmall" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Lmall" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Lmall" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Lmall" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Lmall" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lmall9.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lmall9.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eblog.git/trunk" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Maven_work\Lmall\src\main\resources\static\Lmall\js" />
+      <recent name="E:\Maven_work\Lmall\src\main\java\com\Lmall\controller\vo" />
+      <recent name="E:\Maven_work\Lmall\src\main\java\com\Lmall\dao" />
+      <recent name="E:\Maven_work\Lmall\src\main\resources\mapper" />
+      <recent name="E:\Maven_work\Lmall\src\main\java\com\Lmall\entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Maven_work\Lmall\src\main\resources\static\Lmall\styles" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="LMallApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Lmall" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Lmall.LMallApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1107559a-599b-46e1-a5a3-faf3c621d6bb" name="Default Changelist" comment="" />
+      <created>1623137894665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623137894665</updated>
+      <workItem from="1623137907885" duration="3484000" />
+      <workItem from="1623198714920" duration="600000" />
+      <workItem from="1623206069958" duration="4313000" />
+      <workItem from="1623220444635" duration="3819000" />
+      <workItem from="1623226826166" duration="1704000" />
+      <workItem from="1623285296011" duration="7955000" />
+      <workItem from="1623295258895" duration="7888000" />
+      <workItem from="1623371906554" duration="5827000" />
+      <workItem from="1623677049914" duration="3622000" />
+      <workItem from="1623724683875" duration="5497000" />
+      <workItem from="1623736729168" duration="10598000" />
+      <workItem from="1623804755431" duration="14953000" />
+      <workItem from="1623855385070" duration="2670000" />
+      <workItem from="1623909762505" duration="1979000" />
+      <workItem from="1624324224429" duration="4084000" />
+      <workItem from="1624374164471" duration="2325000" />
+      <workItem from="1624376555042" duration="2039000" />
+      <workItem from="1624410087055" duration="3888000" />
+      <workItem from="1624497973965" duration="1196000" />
+      <workItem from="1631244958498" duration="1838000" />
+      <workItem from="1631321022271" duration="3142000" />
+      <workItem from="1634290939637" duration="299000" />
+      <workItem from="1637548353611" duration="9246000" />
+      <workItem from="1637632800176" duration="530000" />
+      <workItem from="1637899447592" duration="204000" />
+      <workItem from="1637899664685" duration="15000" />
+      <workItem from="1638325255344" duration="9653000" />
+      <workItem from="1640745081868" duration="15350000" />
+      <workItem from="1641267832020" duration="7069000" />
+      <workItem from="1641373421558" duration="2005000" />
+      <workItem from="1641397023875" duration="4000" />
+      <workItem from="1641400323066" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="58873000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.22654155" />
+      <window_info id="Structure" order="1" sideWeight="0.5021216" side_tool="true" weight="0.25670242" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.5007072" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30975956" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34087694" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32974428" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="bottom" id="MyBatis Log" order="16" />
+      <window_info anchor="right" id="1024 Tools" order="0" />
+      <window_info anchor="right" id="leetcode" order="1" side_tool="true" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.14879356" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3150134" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="right" id="Word Book" order="12" side_tool="true" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="91" key="#Project_Structure" timestamp="1623294747727">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="91" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1623294747727" />
+    <state x="504" y="228" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623748492038">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="504" y="228" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1623748492038" />
+    <state x="525" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1623208017801" />
+    <state x="581" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1623742351685">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="581" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1623742351685" />
+    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1623377377667" />
+    <state x="488" y="358" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1623310170346">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="488" y="358" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1623310170346" />
+    <state x="567" y="296" width="465" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1623227423069">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="567" y="296" width="465" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1623227423069" />
+    <state x="509" y="172" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623830589669">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="509" y="172" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1623830589669" />
+    <state x="530" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1623288845887" />
+    <state x="828" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1623224075193">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="828" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1623224075193" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1623680514310">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1623680514310" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1624351738173">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624351738173" />
+    <state width="1557" height="2" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1623317259135" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1624351738173">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1624351738173" />
+    <state width="1557" height="2" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1623317259134" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1624351738173">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1624351738173" />
+    <state width="1557" height="2" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1623317259134" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1624351738173">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1624351738173" />
+    <state width="1557" height="2" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1623317259135" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1624351738174">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624351738174" />
+    <state width="1557" height="2" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1623317259135" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1624351738174">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1624351738174" />
+    <state width="1557" height="2" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1623317259135" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1624351738173">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1624351738173" />
+    <state width="1557" height="2" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1623317259135" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1624351738174">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1624351738174" />
+    <state width="1557" height="2" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1623317259135" />
+    <state width="1493" height="2" key="GridCell.Tab.2.bottom" timestamp="1623815491402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623815491402" />
+    <state width="1493" height="2" key="GridCell.Tab.2.center" timestamp="1623815491401">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1623815491401" />
+    <state width="1493" height="2" key="GridCell.Tab.2.left" timestamp="1623815491401">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1623815491401" />
+    <state width="1493" height="2" key="GridCell.Tab.2.right" timestamp="1623815491402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1623815491402" />
+    <state x="942" y="62" key="refactoring.ChangeSignatureDialog" timestamp="1623379666150">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="942" y="62" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1623379666150" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/error.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/footer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/mall_carousel.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/service/MallCarouselService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/LMallApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/util/BeanUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/controller/Lmall/LmallIndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="38" column="106" selection-start-line="38" selection-start-column="106" selection-end-line="38" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/controller/Lmall/LmallPersonalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/controller/Lmall/LmallShoppingCartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="28" column="68" lean-forward="true" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="76" column="39" lean-forward="true" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MallShoppingCartItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/common/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/common/IndexConfigTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/common/MallCategoryLevelEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/common/MallException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/controller/admin/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1365">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/controller/admin/MallCarouselController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="46" column="95" selection-start-line="46" selection-start-column="95" selection-end-line="46" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/controller/common/CommonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/controller/Lmall/LmallGoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="60" column="97" selection-start-line="60" selection-start-column="97" selection-end-line="60" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/service/AdminUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/controller/common/KaptchaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/controller/admin/MallGoodsIndexConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="32" column="106" selection-start-line="32" selection-start-column="106" selection-end-line="32" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/controller/admin/MallGoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="197" column="50" selection-start-line="197" selection-start-column="50" selection-end-line="197" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JAVA/src.zip!/java/lang/invoke/MethodType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="770" column="13" selection-start-line="770" selection-start-column="13" selection-end-line="770" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/controller/admin/MallGoodsCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="177" column="1" lean-forward="true" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[3]无重复字符的最长子串.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[28]实现 strStr().java" />
+    <entry file="jar://E:/JAVA/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="437" column="18" selection-start-line="437" selection-start-column="18" selection-end-line="437" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/dao/AdminUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JAVA/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="243" selection-start-line="243" selection-end-line="243" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/you-qu-de-dian-ying-jie-ti-si-lu-by-luck-6zh0.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[620]有趣的电影.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="357">
+            <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/entity/MallGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2333">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/zi-jie-ti-ku-627-jian-dan-sqlbian-geng-x-adiv.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/yong-yi-ge-updateyu-ju-jin-xing-jiao-hua-4sgo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/tu-jie-sqlmian-shi-ti-ru-he-an-tiao-jian-xiu-gai-s.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="484">
+            <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[626]换座位.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[595]大的国家.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="28" selection-start-line="24" selection-start-column="32" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[627]变更性别.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/common/ServiceResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/dao/CarouselMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/entity/MallShoppingCartItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/service/impl/MallCarouselServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/service/impl/MallGoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JAVA/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6072">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[620]有趣的电影.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/zi-jie-ti-ku-620-jian-dan-sqlyou-qu-de-d-ivyu.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lmall/entity/Carousel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Lmall</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

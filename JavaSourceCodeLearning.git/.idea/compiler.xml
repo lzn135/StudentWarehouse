@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springsecurity" />
+        <module name="learnaop" />
+        <module name="learnjava" />
+        <module name="rocketmqdemo" />
+        <module name="learnspring" />
+        <module name="learnnetty" />
+        <module name="learnsb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="learnaop" target="1.8" />
+      <module name="learnjava" target="1.8" />
+      <module name="learnnetty" target="1.8" />
+      <module name="learnsb" target="1.8" />
+      <module name="learnspring" target="1.8" />
+      <module name="rocketmqdemo" target="1.8" />
+      <module name="springsecurity" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="learnaop" options="-parameters" />
+      <module name="learnjava" options="-parameters" />
+      <module name="learnnetty" options="-parameters" />
+      <module name="learnsb" options="-parameters" />
+      <module name="learnspring" options="-parameters" />
+      <module name="rocketmqdemo" options="-parameters" />
+      <module name="springsecurity" options="-parameters" />
+    </option>
+  </component>
+</project>
